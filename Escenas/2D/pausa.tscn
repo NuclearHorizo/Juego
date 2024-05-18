@@ -1,43 +1,40 @@
 [gd_scene load_steps=3 format=3 uid="uid://brjugeonmbmq4"]
 
 [ext_resource type="Script" path="res://pausa.gd" id="1_00pje"]
-[ext_resource type="Theme" uid="uid://cfg64488mk1eg" path="res://Setings/kenneyUI-yellow.tres" id="2_o0t3r"]
+[ext_resource type="Theme" uid="uid://cfg64488mk1eg" path="res://Recursos/Fuentes de texto/Setings/kenneyUI-yellow.tres" id="2_o0t3r"]
 
 [node name="pausa" type="Control"]
+process_mode = 3
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+anchors_preset = 0
 script = ExtResource("1_00pje")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.513889
-anchor_top = 0.524691
-anchor_right = 0.513889
-anchor_bottom = 0.524691
-offset_left = -592.0
-offset_top = -340.0
-offset_right = -427.0
-offset_bottom = -143.0
-grow_horizontal = 0
-grow_vertical = 0
-scale = Vector2(6.98324, 3.28379)
-color = Color(0, 0, 0, 0.423529)
-metadata/_edit_use_anchors_ = true
-
-[node name="Fullscreen" type="CheckButton" parent="ColorRect"]
 layout_mode = 0
-offset_left = 90.0275
-offset_top = 61.1009
-offset_right = 260.028
-offset_bottom = 92.1009
-scale = Vector2(0.27446, 0.890072)
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(29.6599, 16.732)
+color = Color(1, 1, 0.462745, 1)
+
+[node name="Fullscreen" type="CheckButton" parent="."]
+layout_mode = 0
+offset_left = 489.0
+offset_top = 316.0
+offset_right = 659.0
+offset_bottom = 334.0
 theme = ExtResource("2_o0t3r")
 text = "Fullscreen"
 alignment = 1
 
-[connection signal="toggled" from="ColorRect/Fullscreen" to="." method="_on_fullscreen_toggled"]
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 100.0
+offset_right = 418.0
+offset_bottom = 123.0
+scale = Vector2(8.28916, 7.69417)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+text = "PAUSA"
+
+[connection signal="toggled" from="Fullscreen" to="." method="_on_fullscreen_toggled"]

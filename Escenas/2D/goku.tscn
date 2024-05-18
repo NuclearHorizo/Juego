@@ -1,9 +1,8 @@
-[gd_scene load_steps=46 format=3 uid="uid://bg2ufmmb0wokf"]
+[gd_scene load_steps=45 format=3 uid="uid://bg2ufmmb0wokf"]
 
 [ext_resource type="Script" path="res://Scripts/Jugador.gd" id="1_cjokg"]
 [ext_resource type="Texture2D" uid="uid://qqugsev7c35l" path="res://Recursos/Sprites/Prota/Charactert.png" id="2_qthls"]
 [ext_resource type="Texture2D" uid="uid://2jurlmy8ob7i" path="res://Recursos/Sprites/Prota/Efectos .png" id="3_m4wi4"]
-[ext_resource type="PackedScene" uid="uid://brjugeonmbmq4" path="res://Escenas/2D/pausa.tscn" id="4_hwr4v"]
 [ext_resource type="Texture2D" uid="uid://dsop840nlsc6t" path="res://Recursos/Sprites/Prota/lamapra.png" id="5_6inj2"]
 [ext_resource type="Texture2D" uid="uid://dsldlypp02lhk" path="res://Recursos/luz.png" id="6_ghlf4"]
 
@@ -278,8 +277,8 @@ _data = {
 "tierrita": SubResource("Animation_4q08m")
 }
 
-[node name="Enemigos hitbox" type="CharacterBody2D"]
-process_mode = 3
+[node name="Goku" type="CharacterBody2D"]
+process_mode = 1
 position = Vector2(162, 89)
 script = ExtResource("1_cjokg")
 SPEED = 150
@@ -290,11 +289,11 @@ position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_txtcb")
 debug_color = Color(0.92549, 0.270588, 0, 0.419608)
 
-[node name="la otra xd" type="CharacterBody2D" parent="."]
+[node name="hitbox" type="CharacterBody2D" parent="."]
 collision_layer = 8
 collision_mask = 8
 
-[node name="Pa_los enemigos" type="CollisionShape2D" parent="la otra xd"]
+[node name="Pa_los enemigos" type="CollisionShape2D" parent="hitbox"]
 position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_b6irn")
 
@@ -334,36 +333,6 @@ process_mode = 1
 libraries = {
 "": SubResource("AnimationLibrary_nb3wo")
 }
-
-[node name="Interfaz" type="Control" parent="."]
-process_mode = 3
-top_level = true
-layout_mode = 3
-anchors_preset = 0
-offset_left = 580.0
-offset_top = 327.0
-offset_right = 580.0
-offset_bottom = 327.0
-scale = Vector2(0.5, 0.5)
-
-[node name="CanvasLayer" type="CanvasLayer" parent="Interfaz"]
-
-[node name="Fps" type="Label" parent="Interfaz/CanvasLayer"]
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="chatarra" type="Label" parent="Interfaz/CanvasLayer"]
-offset_top = 35.0
-offset_right = 40.0
-offset_bottom = 58.0
-
-[node name="pausa" parent="." instance=ExtResource("4_hwr4v")]
-z_index = 20
-offset_left = -5.0
-offset_top = 6.0
-offset_right = -5.0
-offset_bottom = 6.0
-scale = Vector2(0.5, 0.5)
 
 [node name="items" type="Node2D" parent="."]
 

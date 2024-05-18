@@ -11,12 +11,15 @@ config_version=5
 [application]
 
 config/name="Juego"
+run/main_scene="res://Escenas/2D/niveles/Lvl_1.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GlobalVar="*res://Scripts/Global_var.gd"
+Interfaz="*res://Escenas/2D/interfaz.tscn"
+Pausa="*res://Escenas/2D/pausa.tscn"
 
 [display]
 

@@ -3,7 +3,7 @@ extends Node
 var chatarra_count
 var vida_jugador = 10
 var pausa : bool = false
-
+var char_state : String
 
 func _ready():
 	chatarra_count = 10

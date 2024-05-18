@@ -1,14 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716051119
+::res://::1716061489
 pausa.gd::GDScript::-1::1716049916::0::1::::<>Control<>::
 ::res://Escenas/::1716048174
-::res://Escenas/2D/::1716051124
-goku.tscn::PackedScene::2864515862603342833::1716051124::0::1::::<><>::res://Scripts/Jugador.gd<>uid://qqugsev7c35l::::res://Recursos/Sprites/Prota/Charactert.png<>uid://2jurlmy8ob7i::::res://Recursos/Sprites/Prota/Efectos .png<>uid://brjugeonmbmq4::::res://Escenas/2D/pausa.tscn<>uid://dsop840nlsc6t::::res://Recursos/Sprites/Prota/lamapra.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
+::res://Escenas/2D/::1716051254
+goku.tscn::PackedScene::2864515862603342833::1716051254::0::1::::<><>::res://Scripts/Jugador.gd<>uid://qqugsev7c35l::::res://Recursos/Sprites/Prota/Charactert.png<>uid://2jurlmy8ob7i::::res://Recursos/Sprites/Prota/Efectos .png<>uid://brjugeonmbmq4::::res://Escenas/2D/pausa.tscn<>uid://dsop840nlsc6t::::res://Recursos/Sprites/Prota/lamapra.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
 parallax.tscn::PackedScene::6962275566076176162::1715795368::0::1::::<><>::uid://cyw5ipduugplc::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_BackGround 16x16.png
 pausa.tscn::PackedScene::3599435712272360917::1715919773::0::1::::<><>::res://pausa.gd<>uid://cfg64488mk1eg::::res://Setings/kenneyUI-yellow.tres
-::res://Escenas/2D/niveles/::1716051124
-Lvl_1.tscn::PackedScene::4053045432134362761::1716051124::0::1::::<><>::uid://s0df0jrgku3s::::res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn<>uid://bg2ufmmb0wokf::::res://Escenas/2D/goku.tscn<>uid://c6gtwqstlcg0y::::res://Escenas/2D/parallax.tscn
-Nvl_1_Tilemap.tscn::PackedScene::1315201037051731882::1716051124::0::1::::<><>::uid://gpfh1is3aun2::::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/Dungeon Tile Set.png<>uid://digpfeh2gpbva::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_UndergroundMine_TileSet 16x16.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
+::res://Escenas/2D/niveles/::1716051264
+Lvl_1.tscn::PackedScene::4053045432134362761::1716051264::0::1::::<><>::uid://s0df0jrgku3s::::res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn<>uid://bg2ufmmb0wokf::::res://Escenas/2D/goku.tscn<>uid://c6gtwqstlcg0y::::res://Escenas/2D/parallax.tscn
+Nvl_1_Tilemap.tscn::PackedScene::1315201037051731882::1716051253::0::1::::<><>::uid://gpfh1is3aun2::::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/Dungeon Tile Set.png<>uid://digpfeh2gpbva::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_UndergroundMine_TileSet 16x16.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
 ::res://Escenas/3D/::1716048174
 Menu_principal.tscn::PackedScene::2764333979642086823::1711470898::0::1::::<><>::uid://ckv6c2e3b8bxk::::res://Recursos/materiales/pasto.tres<>uid://cx34f35824dut::::res://Recursos/materiales/Madera.tres<>uid://bw004uc60goro::::res://Recursos/Escenarios/Menu_principal_Main menu-4.png<>uid://bmn8wp4smr5c::::res://Recursos/materiales/Hojas.tres
 ::res://Recursos/::1716049828
@@ -40,7 +40,7 @@ chatarra_peque-sheet.png::CompressedTexture2D::7626579809273348807::1712099960::
 ::res://Recursos/Sprites/Enemigo/::1709515304
 ::res://Recursos/Sprites/Misc/::1716049828
 3DS - The Legend of Zelda Majoras Mask 3D - Dialogue Boxes.png::CompressedTexture2D::4122683171336455792::1710736917::1716049828::1::::<><>::
-::res://Recursos/Sprites/Prota/::1716049828
+::res://Recursos/Sprites/Prota/::1716051201
 0px All.png::CompressedTexture2D::3718267940950354541::1713732686::1716049828::1::::<><>::
 Charactert-sheet.png::CompressedTexture2D::1456158011310326481::1710130759::1716049828::1::::<><>::
 Charactert.png::CompressedTexture2D::1157277549488772135::1710807367::1716049828::1::::<><>::
@@ -110,7 +110,7 @@ Character_Sprite_Sheet.png::CompressedTexture2D::6476313496620136064::1715652212
 Assets.png::CompressedTexture2D::464339854655147674::1715652212::1716049828::1::::<><>::
 Test_1.png::CompressedTexture2D::1237746025259545746::1715652212::1716049828::1::::<><>::
 Test_2.png::CompressedTexture2D::38009766078383397::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/::1716049828
+::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/::1716051184
 Readme.txt::TextFile::-1::1715652212::0::1::::<><>::
 triangulo.png::CompressedTexture2D::7867021110567422195::1715749981::1716051184::1::::<><>::
 UM_BackGround 16x16.png::CompressedTexture2D::6504626514842881636::1715652212::1716051181::1::::<><>::

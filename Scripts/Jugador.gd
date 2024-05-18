@@ -6,17 +6,14 @@ extends CharacterBody2D
 var dir = Vector2.ZERO
 var state_machine
 var fps
-var char_state : String
+
 
 func _physics_process(delta):
 	character_state()
 	movimiento()
 	anim()
-	fps = Engine.get_frames_per_second()
-	$Interfaz/CanvasLayer/Fps.text = "FPS: "+ str(fps)
-	$Interfaz/CanvasLayer/chatarra.text = "Estado: "+ str(char_state)
 	$items/Lamapra.look_at(get_global_mouse_position())
-	if char_state != "pared_desliz":
+	if GlobalVar.char_state != "pared_desliz":
 		GRAVITY = 9.8
 	
 func _ready():
@@ -26,19 +23,19 @@ func _ready():
 	
 func character_state():
 	if is_on_floor() && velocity == Vector2(0,0):
-		char_state = "parado"
+		GlobalVar.char_state = "parado"
 		
 	if not is_on_floor() && not is_on_wall():
-		char_state = "aire"
+		GlobalVar.char_state = "aire"
 		
 	elif Input.is_action_pressed("abajo") && velocity.x == 0 && velocity.y == 0:
-		char_state = "agachado"
+		GlobalVar.char_state = "agachado"
 
 	elif velocity.x != 0:
-		char_state = "moviendose"
+		GlobalVar.char_state = "moviendose"
 			
 	elif is_on_wall() && velocity.y > 0:
-		char_state = "pared_desliz"
+		GlobalVar.char_state = "pared_desliz"
 		
 func movimiento():
 	dir.x = Input.get_action_strength("move_der") - Input.get_action_strength("move_izq")
@@ -77,7 +74,7 @@ func anim():
 			state_machine.travel("Salto")
 		
 	#Pared
-	if char_state == "pared_desliz":
+	if GlobalVar.char_state == "pared_desliz":
 		if Input.is_action_pressed("move_der"):
 			$PJ.flip_h = true
 			$efectos.flip_v= true
@@ -108,16 +105,15 @@ func pared():
 		$efectos.show()
 		if Input.is_action_just_pressed("salto"):
 			velocity.y = JUMP_FORCE
-			char_state = "aire"
+			GlobalVar.char_state = "aire"
 			
-	
 func acciones():
 	#Estados del personaje:
 	#	1."parado"			5."move_izq"
 	#	2."aire"			6."move_der"
 	#	3."agachado"		7.Nada
 	#	4."pared_desliz"	8.Nada
-	match char_state:
+	match GlobalVar.char_state:
 		"pared_desliz":
 			pared()
 		#"move_der":
@@ -140,3 +136,4 @@ func acciones():
 				#
 		#"agachado":
 			#state_machine.travel("Agacharse_inicio")
+

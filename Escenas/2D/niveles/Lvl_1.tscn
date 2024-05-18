@@ -8,13 +8,14 @@
 
 [node name="TileMap" parent="." instance=ExtResource("1_cqc8s")]
 
+[node name="Sombras" type="DirectionalLight2D" parent="."]
+color = Color(0.72549, 0.72549, 0.72549, 1)
+blend_mode = 1
+
 [node name="Goku" parent="." instance=ExtResource("2_lwgjs")]
-position = Vector2(166, 454)
+position = Vector2(182, 424)
 
 [node name="Camera2D" type="Camera2D" parent="Goku"]
 zoom = Vector2(2.5, 2.5)
 
 [node name="parallax" parent="Goku" instance=ExtResource("3_0lmml")]
-
-[node name="Sombra" type="CanvasModulate" parent="."]
-color = Color(0.247059, 0.247059, 0.247059, 1)

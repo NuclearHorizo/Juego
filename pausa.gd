@@ -1,7 +1,7 @@
 extends Control
 
 func _ready():
-	$ColorRect.hide()
+	$".".hide()
 
 func _physics_process(delta):
 	_pausa()
@@ -9,15 +9,15 @@ func _physics_process(delta):
 func _pausa():
 	
 	if GlobalVar.pausa == true:
-		$ColorRect.show()
+		$".".show()
 	else:
-		$ColorRect.hide()
+		$".".hide()
 			
-	if Input.is_action_just_pressed("opciones") && GlobalVar.pausa == false:
+	if Input.is_action_just_pressed("opciones") && $".".visible == false:
 		GlobalVar.pausa = true
 		get_tree().paused = true
 		
-	elif Input.is_action_just_pressed("opciones") && GlobalVar.pausa == true:
+	elif Input.is_action_just_pressed("opciones") && $".".visible == true:
 		GlobalVar.pausa = false
 		get_tree().paused = false
 		
