@@ -284,7 +284,7 @@ script = ExtResource("1_cjokg")
 SPEED = 150
 JUMP_FORCE = -250
 
-[node name="todo lo demas" type="CollisionShape2D" parent="."]
+[node name="Hitbox" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_txtcb")
 debug_color = Color(0.92549, 0.270588, 0, 0.419608)
@@ -313,9 +313,6 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 process_mode = 1
 active = false
-libraries = {
-"": SubResource("AnimationLibrary_onaq2")
-}
 tree_root = SubResource("AnimationNodeStateMachine_uw6ge")
 anim_player = NodePath("../AnimationPlayer")
 

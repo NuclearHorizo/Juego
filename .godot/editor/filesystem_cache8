@@ -1,135 +1,137 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716061489
-pausa.gd::GDScript::-1::1716049916::0::1::::<>Control<>::
-::res://Escenas/::1716048174
-::res://Escenas/2D/::1716051254
-goku.tscn::PackedScene::2864515862603342833::1716051254::0::1::::<><>::res://Scripts/Jugador.gd<>uid://qqugsev7c35l::::res://Recursos/Sprites/Prota/Charactert.png<>uid://2jurlmy8ob7i::::res://Recursos/Sprites/Prota/Efectos .png<>uid://brjugeonmbmq4::::res://Escenas/2D/pausa.tscn<>uid://dsop840nlsc6t::::res://Recursos/Sprites/Prota/lamapra.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
-parallax.tscn::PackedScene::6962275566076176162::1715795368::0::1::::<><>::uid://cyw5ipduugplc::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_BackGround 16x16.png
-pausa.tscn::PackedScene::3599435712272360917::1715919773::0::1::::<><>::res://pausa.gd<>uid://cfg64488mk1eg::::res://Setings/kenneyUI-yellow.tres
-::res://Escenas/2D/niveles/::1716051264
-Lvl_1.tscn::PackedScene::4053045432134362761::1716051264::0::1::::<><>::uid://s0df0jrgku3s::::res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn<>uid://bg2ufmmb0wokf::::res://Escenas/2D/goku.tscn<>uid://c6gtwqstlcg0y::::res://Escenas/2D/parallax.tscn
-Nvl_1_Tilemap.tscn::PackedScene::1315201037051731882::1716051253::0::1::::<><>::uid://gpfh1is3aun2::::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/Dungeon Tile Set.png<>uid://digpfeh2gpbva::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_UndergroundMine_TileSet 16x16.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
-::res://Escenas/3D/::1716048174
-Menu_principal.tscn::PackedScene::2764333979642086823::1711470898::0::1::::<><>::uid://ckv6c2e3b8bxk::::res://Recursos/materiales/pasto.tres<>uid://cx34f35824dut::::res://Recursos/materiales/Madera.tres<>uid://bw004uc60goro::::res://Recursos/Escenarios/Menu_principal_Main menu-4.png<>uid://bmn8wp4smr5c::::res://Recursos/materiales/Hojas.tres
-::res://Recursos/::1716049828
-cursorDEFINITIVO.png::CompressedTexture2D::7534413712667230300::1712035856::1716049828::1::::<><>::
-luz.png::CompressedTexture2D::8445572471018280492::1715796189::1716049828::1::::<><>::
-::res://Recursos/Fuentes de texto/::1716050463
-speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp::CompressedTexture2D::791580720204177405::1711471460::1716049828::1::::<><>::
-::res://Recursos/Fuentes de texto/Setings/::1716050721
-kenneyUI-blue.tres::Theme::8946612877041428726::1716050463::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
-kenneyUI-green.tres::Theme::1129023501603976875::1716050463::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
-kenneyUI-red.tres::Theme::8697716082235756191::1716050463::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
-kenneyUI-yellow.tres::Theme::5138107442571253222::1716050721::0::1::::<><>::uid://cy2x0wn8heq88::::res://Recursos/Fuentes de texto/Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Recursos/Fuentes de texto/Setings/kenvector_future.ttf
-kenneyUI.tres::Theme::-1::1716050463::0::1::::<><>::res://Recursos/Fuentes de texto/Setings/UIpack_vector.svg<>res://Recursos/Fuentes de texto/Setings/kenvector_future.ttf
-kenvector_future.ttf::FontFile::1159321920447693412::1716050463::1716050463::1::::<><>::
-UIpack_vector.svg::CompressedTexture2D::6514554126844905139::1716050463::1716050464::1::::<><>::
-::res://Recursos/Rec. juego/::1716049829
-April-Tweets-71-1024x576.png::CompressedTexture2D::6746653299144295671::1709590385::1716049828::1::::<><>::
-golden-glowing-light-effects-isolated-on-transparent-background-solar-flare-with-beams-and-spotlight-glow-effect-starburst-with-sparkles-png.webp::CompressedTexture2D::1299411321079292663::1711421626::1716049829::1::::<><>::
-images.jpeg::CompressedTexture2D::8845306050250328813::1709590381::1716049828::1::::<><>::
-::res://Recursos/Sonidos/::1716048141
-::res://Recursos/Sonidos/Musica/::1716049827
-Audio de WhatsApp 2024-03-12 a las 19.28.36_1852d570.mp3::AudioStreamMP3::8907735307817003326::1710296918::1716049827::1::::<><>::
-y2mate.com - bad piggies drip.mp3::AudioStreamMP3::4018120424309868166::1711408297::1716049827::1::::<><>::
-::res://Recursos/Sonidos/SFX/::1709515262
-::res://Recursos/Sprites/::1716048337
-::res://Recursos/Sprites/cosas/::1716049828
-brillitos.png::CompressedTexture2D::4236402881329244959::1712100349::1716049828::1::::<><>::
-chatarra_peque-sheet.png::CompressedTexture2D::7626579809273348807::1712099960::1716049828::1::::<><>::
-::res://Recursos/Sprites/Enemigo/::1709515304
-::res://Recursos/Sprites/Misc/::1716049828
-3DS - The Legend of Zelda Majoras Mask 3D - Dialogue Boxes.png::CompressedTexture2D::4122683171336455792::1710736917::1716049828::1::::<><>::
-::res://Recursos/Sprites/Prota/::1716051201
-0px All.png::CompressedTexture2D::3718267940950354541::1713732686::1716049828::1::::<><>::
-Charactert-sheet.png::CompressedTexture2D::1456158011310326481::1710130759::1716049828::1::::<><>::
-Charactert.png::CompressedTexture2D::1157277549488772135::1710807367::1716049828::1::::<><>::
-cursor2.png::CompressedTexture2D::560628512109037364::1712035660::1716049828::1::::<><>::
-cursor.png::CompressedTexture2D::2864733801543006772::1712035646::1716049828::1::::<><>::
-Efectos .png::CompressedTexture2D::1914923473794731212::1710649417::1716049828::1::::<><>::
-lamapra.png::CompressedTexture2D::8452533773614417113::1711492711::1716051201::1::::<><>::
-Pistola.png::CompressedTexture2D::6501316096124499241::1711484592::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/::1716048141
-::res://Recursos/Tile maps 2D/Pedidos prestados/::1716048142
-::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/::1716048141
-Autor_note.txt::TextFile::-1::1715652211::0::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/Assets/::1716049828
-Assets.png::CompressedTexture2D::499438055710616687::1715652211::1716049828::1::::<><>::
-Background_1.png::CompressedTexture2D::597978805498899980::1715652211::1716049828::1::::<><>::
-Background_2.png::CompressedTexture2D::2075364370180008259::1715652211::1716049828::1::::<><>::
-Char.png::CompressedTexture2D::2145157029694432569::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/Social/::1716049828
-Assets.png::CompressedTexture2D::18633242352968280::1715652211::1716049828::1::::<><>::
-Test.png::CompressedTexture2D::5625983276292909883::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/::1716048141
-Autor_note.txt::TextFile::-1::1715652211::0::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/Assets/::1716049828
-Assets.png::CompressedTexture2D::2790025423095926378::1715652211::1716049828::1::::<><>::
-Background_1.png::CompressedTexture2D::2302891455149061877::1715652211::1716049828::1::::<><>::
-Background_2.png::CompressedTexture2D::5646767905584775813::1715652211::1716049828::1::::<><>::
-Character.png::CompressedTexture2D::481104759942769550::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/Social/::1716049829
-Assets.png::CompressedTexture2D::7192474043175170573::1715652211::1716049829::1::::<><>::
-test.png::CompressedTexture2D::6124358129275924038::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/::1716048141
-::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Assets/::1716049828
-Buildings.png::CompressedTexture2D::8390147503066049871::1715652211::1716049828::1::::<><>::
-Props-01.png::CompressedTexture2D::5028264409169782088::1715652211::1716049828::1::::<><>::
-Tiles.png::CompressedTexture2D::5210053830106163616::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Background/::1716049828
-Background Props.png::CompressedTexture2D::7072875714401452488::1715652211::1716049828::1::::<><>::
-Base Color.png::CompressedTexture2D::8951869034743186209::1715652211::1716049828::1::::<><>::
-Frontal Fog.png::CompressedTexture2D::1387383916117798732::1715652211::1716049828::1::::<><>::
-Mid Fog.png::CompressedTexture2D::3399923146741941694::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Social/::1716049829
-Background Props.png::CompressedTexture2D::601027076836489890::1715652212::1716049828::1::::<><>::
-Buildings.png::CompressedTexture2D::9043079990464135566::1715652212::1716049829::1::::<><>::
-MockUp-01.png::CompressedTexture2D::4420482949696538925::1715652212::1716049828::1::::<><>::
-Props-01.png::CompressedTexture2D::4950030624636336658::1715652212::1716049828::1::::<><>::
-Tiles.png::CompressedTexture2D::1491109225918413181::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/::1716049828
-Dungeon Tile Set.png::CompressedTexture2D::452416192481075237::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Facility/::1716049828
-facility_sample.png::CompressedTexture2D::2389039162588066497::1715652211::1716049828::1::::<><>::
-facility_tiles.png::CompressedTexture2D::2851929294333736882::1715652211::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Stone Ruins/::1716049828
-Readme.txt::TextFile::-1::1715652212::0::1::::<><>::
-SR_Stone Ruins_BackGround 16x16.png::CompressedTexture2D::8816678685045335927::1715652212::1716049828::1::::<><>::
-SR_Stone Ruins_Objects 16x16.png::CompressedTexture2D::5671135855996601212::1715652212::1716049828::1::::<><>::
-SR_Stone Ruins_TileSet 16x16.png::CompressedTexture2D::6801206536053058863::1715652212::1716049828::1::::<><>::
-SR_Stone Ruins_TilesGround 16x16.png::CompressedTexture2D::8595344936781648138::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/::1716048141
-Legacy_Autor_note.txt::TextFile::-1::1715652212::0::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Assets/::1716049828
-Assets.png::CompressedTexture2D::7377550859336972497::1715652212::1716049828::1::::<><>::
-Background_1.png::CompressedTexture2D::8390223492735406348::1715652212::1716049828::1::::<><>::
-Background_2.png::CompressedTexture2D::537922660824581272::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Character/::1716049828
-Character_Sprite_Sheet.png::CompressedTexture2D::6476313496620136064::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Social/::1716049828
-Assets.png::CompressedTexture2D::464339854655147674::1715652212::1716049828::1::::<><>::
-Test_1.png::CompressedTexture2D::1237746025259545746::1715652212::1716049828::1::::<><>::
-Test_2.png::CompressedTexture2D::38009766078383397::1715652212::1716049828::1::::<><>::
-::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/::1716051184
-Readme.txt::TextFile::-1::1715652212::0::1::::<><>::
-triangulo.png::CompressedTexture2D::7867021110567422195::1715749981::1716051184::1::::<><>::
-UM_BackGround 16x16.png::CompressedTexture2D::6504626514842881636::1715652212::1716051181::1::::<><>::
-UM_Objects 16x16.png::CompressedTexture2D::6849957776496261489::1715652212::1716051178::1::::<><>::
-UM_TileGround 16x16.png::CompressedTexture2D::5398392880928449901::1715652212::1716051172::1::::<><>::
-UM_UndergroundMine_TileSet 16x16.png::CompressedTexture2D::7734078972711339718::1715652212::1716051168::1::::<><>::
-::res://Scripts/::1716050733
-ash.gd::GDScript::-1::1712033980::0::1::::<>Node3D<>::
-chatarra.gd::GDScript::-1::1712297390::0::1::::<>Node3D<>::
-cursor.gd::GDScript::-1::1712035124::0::1::::<>RefCounted<>::
-Global_var.gd::GDScript::-1::1716050733::0::1::::<>Node<>::
-Interfaz.gd::GDScript::-1::1711433696::0::1::::<>Control<>::
-Jugador.gd::GDScript::-1::1715919772::0::1::::<>CharacterBody2D<>::
-Main menu.gd::GDScript::-1::1715797147::0::1::::<>Node3D<>::
-maus_camera.gd::GDScript::-1::1715650371::0::1::::<>Camera2D<>::
-menu_inicio.gd::GDScript::-1::1711471284::0::1::::<>Node3D<>::
-Mundo inicial.gd::GDScript::-1::1712032980::0::1::::<>Node3D<>::
-pistola.gd::GDScript::-1::1711488088::0::1::::<>Sprite3D<>::
-prueba.gd::GDScript::-1::1711431564::0::1::::<>Node3D<>::
-trancicion.gd::GDScript::-1::1712032916::0::1::::<>CanvasLayer<>::
-Tu mama.gd::GDScript::-1::1712436290::0::1::::<>Node3D<>::
-tuto.gd::GDScript::-1::1711436481::0::1::::<>Node3D<>::
+::res://::1716110786
+pausa.gd::GDScript::-1::1716110765::0::1::::<>Control<>::
+::res://Escenas/::1716110765
+::res://Escenas/2D/::1716111315
+goku.tscn::PackedScene::2864515862603342833::1716111315::0::1::::<><>::res://Scripts/Jugador.gd<>uid://qqugsev7c35l::::res://Recursos/Sprites/Prota/Charactert.png<>uid://2jurlmy8ob7i::::res://Recursos/Sprites/Prota/Efectos .png<>uid://dsop840nlsc6t::::res://Recursos/Sprites/Prota/lamapra.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
+interfaz.tscn::PackedScene::3978971314708030847::1716110765::0::1::::<><>::res://Escenas/2D/Stats.gd
+parallax.tscn::PackedScene::6962275566076176162::1716110765::0::1::::<><>::uid://cyw5ipduugplc::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_BackGround 16x16.png
+pausa.tscn::PackedScene::3599435712272360917::1716110765::0::1::::<><>::res://pausa.gd<>uid://cfg64488mk1eg::::res://Recursos/Fuentes de texto/Setings/kenneyUI-yellow.tres
+Stats.gd::GDScript::-1::1716110765::0::1::::<>Control<>::
+::res://Escenas/2D/niveles/::1716111315
+Lvl_1.tscn::PackedScene::4053045432134362761::1716111315::0::1::::<><>::uid://s0df0jrgku3s::::res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn<>uid://bg2ufmmb0wokf::::res://Escenas/2D/goku.tscn<>uid://c6gtwqstlcg0y::::res://Escenas/2D/parallax.tscn
+Nvl_1_Tilemap.tscn::PackedScene::1315201037051731882::1716110765::0::1::::<><>::uid://gpfh1is3aun2::::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/Dungeon Tile Set.png<>uid://digpfeh2gpbva::::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/UM_UndergroundMine_TileSet 16x16.png<>uid://dsldlypp02lhk::::res://Recursos/luz.png
+::res://Escenas/3D/::1716110765
+Menu_principal.tscn::PackedScene::2764333979642086823::1716110765::0::1::::<><>::uid://ckv6c2e3b8bxk::::res://Recursos/materiales/pasto.tres<>uid://cx34f35824dut::::res://Recursos/materiales/Madera.tres<>uid://bw004uc60goro::::res://Recursos/Escenarios/Menu_principal_Main menu-4.png<>uid://bmn8wp4smr5c::::res://Recursos/materiales/Hojas.tres
+::res://Recursos/::1716110765
+cursorDEFINITIVO.png::CompressedTexture2D::7534413712667230300::1716110765::1716110765::1::::<><>::
+luz.png::CompressedTexture2D::8445572471018280492::1716110765::1716110765::1::::<><>::
+::res://Recursos/Fuentes de texto/::1716110765
+speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp::CompressedTexture2D::791580720204177405::1716110765::1716110765::1::::<><>::
+::res://Recursos/Fuentes de texto/Setings/::1716110818
+kenneyUI-blue.tres::Theme::8946612877041428726::1716110765::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
+kenneyUI-green.tres::Theme::1129023501603976875::1716110765::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
+kenneyUI-red.tres::Theme::8697716082235756191::1716110765::0::1::::<><>::uid://cy2x0wn8heq88::::res://Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Setings/kenvector_future.ttf
+kenneyUI-yellow.tres::Theme::5138107442571253222::1716110818::0::1::::<><>::uid://cy2x0wn8heq88::::res://Recursos/Fuentes de texto/Setings/UIpack_vector.svg<>uid://qrt4lhvhjrea::::res://Recursos/Fuentes de texto/Setings/kenvector_future.ttf
+kenneyUI.tres::Theme::-1::1716110765::0::1::::<><>::res://Recursos/Fuentes de texto/Setings/UIpack_vector.svg<>res://Recursos/Fuentes de texto/Setings/kenvector_future.ttf
+kenvector_future.ttf::FontFile::1159321920447693412::1716110765::1716110765::1::::<><>::
+UIpack_vector.svg::CompressedTexture2D::6514554126844905139::1716110765::1716110765::1::::<><>::
+::res://Recursos/Rec. juego/::1716110765
+April-Tweets-71-1024x576.png::CompressedTexture2D::6746653299144295671::1716110765::1716110765::1::::<><>::
+golden-glowing-light-effects-isolated-on-transparent-background-solar-flare-with-beams-and-spotlight-glow-effect-starburst-with-sparkles-png.webp::CompressedTexture2D::1299411321079292663::1716110765::1716110765::1::::<><>::
+images.jpeg::CompressedTexture2D::8845306050250328813::1716110765::1716110765::1::::<><>::
+::res://Recursos/Sonidos/::1716110765
+::res://Recursos/Sonidos/Musica/::1716110765
+Audio de WhatsApp 2024-03-12 a las 19.28.36_1852d570.mp3::AudioStreamMP3::8907735307817003326::1716110765::1716110765::1::::<><>::
+y2mate.com - bad piggies drip.mp3::AudioStreamMP3::4018120424309868166::1716110765::1716110765::1::::<><>::
+::res://Recursos/Sprites/::1716112457
+::res://Recursos/Sprites/cosas/::1716110765
+brillitos.png::CompressedTexture2D::4236402881329244959::1716110765::1716110765::1::::<><>::
+chatarra_peque-sheet.png::CompressedTexture2D::7626579809273348807::1716110765::1716110765::1::::<><>::
+::res://Recursos/Sprites/Enemigo/::1716112459
+NightBorne.png::CompressedTexture2D::3508543557422214380::1618678048::1716112462::1::::<><>::
+::res://Recursos/Sprites/Misc/::1716110765
+3DS - The Legend of Zelda Majoras Mask 3D - Dialogue Boxes.png::CompressedTexture2D::4122683171336455792::1716110765::1716110765::1::::<><>::
+::res://Recursos/Sprites/Prota/::1716110765
+0px All.png::CompressedTexture2D::3718267940950354541::1716110765::1716110765::1::::<><>::
+Charactert-sheet.png::CompressedTexture2D::1456158011310326481::1716110765::1716110765::1::::<><>::
+Charactert.png::CompressedTexture2D::1157277549488772135::1716110765::1716110765::1::::<><>::
+cursor2.png::CompressedTexture2D::560628512109037364::1716110765::1716110765::1::::<><>::
+cursor.png::CompressedTexture2D::2864733801543006772::1716110765::1716110765::1::::<><>::
+Efectos .png::CompressedTexture2D::1914923473794731212::1716110765::1716110765::1::::<><>::
+lamapra.png::CompressedTexture2D::8452533773614417113::1716110765::1716110765::1::::<><>::
+Pistola.png::CompressedTexture2D::6501316096124499241::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/::1716110765
+::res://Recursos/Tile maps 2D/Pedidos prestados/::1716110765
+::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/::1716110765
+Autor_note.txt::TextFile::-1::1716110765::0::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/Assets/::1716110765
+Assets.png::CompressedTexture2D::499438055710616687::1716110765::1716110765::1::::<><>::
+Background_1.png::CompressedTexture2D::597978805498899980::1716110765::1716110765::1::::<><>::
+Background_2.png::CompressedTexture2D::2075364370180008259::1716110765::1716110765::1::::<><>::
+Char.png::CompressedTexture2D::2145157029694432569::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/- CEMETERY/Social/::1716110765
+Assets.png::CompressedTexture2D::18633242352968280::1716110765::1716110765::1::::<><>::
+Test.png::CompressedTexture2D::5625983276292909883::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/::1716110765
+Autor_note.txt::TextFile::-1::1716110765::0::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/Assets/::1716110765
+Assets.png::CompressedTexture2D::2790025423095926378::1716110765::1716110765::1::::<><>::
+Background_1.png::CompressedTexture2D::2302891455149061877::1716110765::1716110765::1::::<><>::
+Background_2.png::CompressedTexture2D::5646767905584775813::1716110765::1716110765::1::::<><>::
+Character.png::CompressedTexture2D::481104759942769550::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/- RUINS/Social/::1716110765
+Assets.png::CompressedTexture2D::7192474043175170573::1716110765::1716110765::1::::<><>::
+test.png::CompressedTexture2D::6124358129275924038::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/::1716110765
+::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Assets/::1716110765
+Buildings.png::CompressedTexture2D::8390147503066049871::1716110765::1716110765::1::::<><>::
+Props-01.png::CompressedTexture2D::5028264409169782088::1716110765::1716110765::1::::<><>::
+Tiles.png::CompressedTexture2D::5210053830106163616::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Background/::1716110765
+Background Props.png::CompressedTexture2D::7072875714401452488::1716110765::1716110765::1::::<><>::
+Base Color.png::CompressedTexture2D::8951869034743186209::1716110765::1716110765::1::::<><>::
+Frontal Fog.png::CompressedTexture2D::1387383916117798732::1716110765::1716110765::1::::<><>::
+Mid Fog.png::CompressedTexture2D::3399923146741941694::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Central City/Social/::1716110765
+Background Props.png::CompressedTexture2D::601027076836489890::1716110765::1716110765::1::::<><>::
+Buildings.png::CompressedTexture2D::9043079990464135566::1716110765::1716110765::1::::<><>::
+MockUp-01.png::CompressedTexture2D::4420482949696538925::1716110765::1716110765::1::::<><>::
+Props-01.png::CompressedTexture2D::4950030624636336658::1716110765::1716110765::1::::<><>::
+Tiles.png::CompressedTexture2D::1491109225918413181::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Dungeon Tile Set/::1716110765
+Dungeon Tile Set.png::CompressedTexture2D::452416192481075237::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Facility/::1716110765
+facility_sample.png::CompressedTexture2D::2389039162588066497::1716110765::1716110765::1::::<><>::
+facility_tiles.png::CompressedTexture2D::2851929294333736882::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Stone Ruins/::1716110765
+Readme.txt::TextFile::-1::1716110765::0::1::::<><>::
+SR_Stone Ruins_BackGround 16x16.png::CompressedTexture2D::8816678685045335927::1716110765::1716110765::1::::<><>::
+SR_Stone Ruins_Objects 16x16.png::CompressedTexture2D::5671135855996601212::1716110765::1716110765::1::::<><>::
+SR_Stone Ruins_TileSet 16x16.png::CompressedTexture2D::6801206536053058863::1716110765::1716110765::1::::<><>::
+SR_Stone Ruins_TilesGround 16x16.png::CompressedTexture2D::8595344936781648138::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/::1716110765
+Legacy_Autor_note.txt::TextFile::-1::1716110765::0::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Assets/::1716110765
+Assets.png::CompressedTexture2D::7377550859336972497::1716110765::1716110765::1::::<><>::
+Background_1.png::CompressedTexture2D::8390223492735406348::1716110765::1716110765::1::::<><>::
+Background_2.png::CompressedTexture2D::537922660824581272::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Character/::1716110765
+Character_Sprite_Sheet.png::CompressedTexture2D::6476313496620136064::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/Temple/Social/::1716110765
+Assets.png::CompressedTexture2D::464339854655147674::1716110765::1716110765::1::::<><>::
+Test_1.png::CompressedTexture2D::1237746025259545746::1716110765::1716110765::1::::<><>::
+Test_2.png::CompressedTexture2D::38009766078383397::1716110765::1716110765::1::::<><>::
+::res://Recursos/Tile maps 2D/Pedidos prestados/UndergroundMine/::1716110765
+Readme.txt::TextFile::-1::1716110765::0::1::::<><>::
+triangulo.png::CompressedTexture2D::7867021110567422195::1716110765::1716110765::1::::<><>::
+UM_BackGround 16x16.png::CompressedTexture2D::6504626514842881636::1716110765::1716110765::1::::<><>::
+UM_Objects 16x16.png::CompressedTexture2D::6849957776496261489::1716110765::1716110765::1::::<><>::
+UM_TileGround 16x16.png::CompressedTexture2D::5398392880928449901::1716110765::1716110765::1::::<><>::
+UM_UndergroundMine_TileSet 16x16.png::CompressedTexture2D::7734078972711339718::1716110765::1716110765::1::::<><>::
+::res://Scripts/::1716112231
+ash.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+chatarra.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+cursor.gd::GDScript::-1::1716110765::0::1::::<>RefCounted<>::
+Global_var.gd::GDScript::-1::1716112231::0::1::::<>Node<>::
+Interfaz.gd::GDScript::-1::1716110765::0::1::::<>Control<>::
+Jugador.gd::GDScript::-1::1716111305::0::1::::<>CharacterBody2D<>::
+Main menu.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+maus_camera.gd::GDScript::-1::1716110765::0::1::::<>Camera2D<>::
+menu_inicio.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+Mundo inicial.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+pistola.gd::GDScript::-1::1716110765::0::1::::<>Sprite3D<>::
+prueba.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+trancicion.gd::GDScript::-1::1716110765::0::1::::<>CanvasLayer<>::
+Tu mama.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::
+tuto.gd::GDScript::-1::1716110765::0::1::::<>Node3D<>::

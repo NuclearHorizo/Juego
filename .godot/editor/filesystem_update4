@@ -1,10 +1,7 @@
-res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn
-res://Recursos/Fuentes de texto/Setings/kenneyUI-yellow.tres
-res://Scripts/Jugador.gd
-res://Escenas/2D/goku.tscn
 res://Escenas/2D/niveles/Lvl_1.tscn
-res://Escenas/2D/interfaz.tscn
+res://Recursos/Fuentes de texto/Setings/kenneyUI-yellow.tres
+res://Escenas/2D/goku.tscn
 res://Scripts/Global_var.gd
-res://Escenas/2D/Stats.gd
-res://Escenas/2D/pausa.tscn
-res://pausa.gd
+res://Escenas/character_body_2d.tscn
+res://Escenas/2D/Enemigo.tscn
+res://Scripts/Enemigo.gd

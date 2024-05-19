@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bx0lcionbsmmb"]
+[gd_scene load_steps=5 format=3 uid="uid://bx0lcionbsmmb"]
 
 [ext_resource type="PackedScene" uid="uid://s0df0jrgku3s" path="res://Escenas/2D/niveles/Nvl_1_Tilemap.tscn" id="1_cqc8s"]
 [ext_resource type="PackedScene" uid="uid://bg2ufmmb0wokf" path="res://Escenas/2D/goku.tscn" id="2_lwgjs"]
 [ext_resource type="PackedScene" uid="uid://c6gtwqstlcg0y" path="res://Escenas/2D/parallax.tscn" id="3_0lmml"]
+[ext_resource type="PackedScene" uid="uid://cr11dsbj1bh7e" path="res://Escenas/2D/Enemigo.tscn" id="4_a8b3i"]
 
 [node name="level_1" type="Node2D"]
 
@@ -19,3 +20,6 @@ position = Vector2(182, 424)
 zoom = Vector2(2.5, 2.5)
 
 [node name="parallax" parent="Goku" instance=ExtResource("3_0lmml")]
+
+[node name="Enemigo" parent="." instance=ExtResource("4_a8b3i")]
+position = Vector2(108, 593)
