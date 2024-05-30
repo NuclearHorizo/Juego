@@ -5,4 +5,3 @@ res://Scripts/Global_var.gd
 res://Escenas/character_body_2d.tscn
 res://Escenas/2D/Enemigo.tscn
 res://Scripts/Enemigo.gd
-res://Scripts/Jugador.gd

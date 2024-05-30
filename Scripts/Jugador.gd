@@ -12,16 +12,11 @@ func _physics_process(delta):
 	character_state()
 	movimiento()
 	anim()
-	#Muerte del Jugador
-	Muerte()
-	#Lampara
 	$items/Lamapra.look_at(get_global_mouse_position())
 	if GlobalVar.char_state != "pared_desliz":
 		GRAVITY = 9.8
-		
 	
 func _ready():
-	add_to_group("Player")
 	$AnimationTree.active = true
 	GlobalVar.pausa = false
 	state_machine = $AnimationTree.get("parameters/playback")
@@ -142,9 +137,3 @@ func acciones():
 		#"agachado":
 			#state_machine.travel("Agacharse_inicio")
 
-
-func Muerte():
-	if GlobalVar.vida_jugador <= 0:
-		#Poner animacion de muerte con un timer o pantalla de muerte
-		queue_free()
-	pass

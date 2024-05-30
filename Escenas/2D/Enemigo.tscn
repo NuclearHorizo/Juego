@@ -264,7 +264,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Ataque",
-"speed": 15.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -420,7 +420,7 @@ animations = [{
 size = Vector2(16.875, 27)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hxrl8"]
-size = Vector2(45, 33)
+size = Vector2(21, 28)
 
 [node name="Enemigo" type="CharacterBody2D"]
 script = ExtResource("1_l5dcm")
@@ -429,19 +429,19 @@ script = ExtResource("1_l5dcm")
 texture_filter = 1
 position = Vector2(27, -25)
 sprite_frames = SubResource("SpriteFrames_boe1c")
-animation = &"Ataque"
+animation = &"Hit"
+frame_progress = 0.530559
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(29, -14)
 shape = SubResource("RectangleShape2D_mn6up")
 debug_color = Color(1, 0.00497581, 0.0626585, 0.42)
 
-[node name="hitbox" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
-position = Vector2(29.5, -16.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(29, -14)
 shape = SubResource("RectangleShape2D_hxrl8")
-debug_color = Color(6.97896e-06, 0.641855, 0.327509, 0.42)
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
 position = Vector2(29, -14)
@@ -450,9 +450,3 @@ target_position = Vector2(20, 0)
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 position = Vector2(29, -14)
 target_position = Vector2(-20, 0)
-
-[node name="Timer" type="Timer" parent="."]
-one_shot = true
-
-[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

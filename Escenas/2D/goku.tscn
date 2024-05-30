@@ -237,7 +237,7 @@ states/pared_dezlis/position = Vector2(465, -77)
 states/salto_caer/node = SubResource("AnimationNodeAnimation_ltbcw")
 states/salto_caer/position = Vector2(559, 2)
 transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_0dw1g"), "Idle", "Salto", SubResource("AnimationNodeStateMachineTransition_tvrxt"), "Salto", "salto_caer", SubResource("AnimationNodeStateMachineTransition_v5bvk"), "salto_caer", "Correr", SubResource("AnimationNodeStateMachineTransition_ecmbp"), "Correr", "Idle", SubResource("AnimationNodeStateMachineTransition_hfcg8"), "Idle", "Correr", SubResource("AnimationNodeStateMachineTransition_25pg2"), "Salto", "Idle", SubResource("AnimationNodeStateMachineTransition_hom7t"), "salto_caer", "Salto", SubResource("AnimationNodeStateMachineTransition_46kyp"), "Correr", "salto_caer", SubResource("AnimationNodeStateMachineTransition_6j3gx"), "Salto", "pared_dezlis", SubResource("AnimationNodeStateMachineTransition_rxc36"), "pared_dezlis", "Salto", SubResource("AnimationNodeStateMachineTransition_35if7"), "salto_caer", "pared_dezlis", SubResource("AnimationNodeStateMachineTransition_qu0ut"), "pared_dezlis", "salto_caer", SubResource("AnimationNodeStateMachineTransition_kb0cm"), "Idle", "Agacharse_inicio", SubResource("AnimationNodeStateMachineTransition_mh4gt"), "Agacharse_inicio", "Idle", SubResource("AnimationNodeStateMachineTransition_k1c6x"), "Agacharse_inicio", "Correr", SubResource("AnimationNodeStateMachineTransition_3q2ya"), "Correr", "Agacharse_inicio", SubResource("AnimationNodeStateMachineTransition_03kmm")]
-graph_offset = Vector2(-82, 56)
+graph_offset = Vector2(-116, -3)
 
 [sub_resource type="Animation" id="Animation_ept4u"]
 length = 0.001
